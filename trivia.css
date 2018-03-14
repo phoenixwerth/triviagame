@@ -1,0 +1,44 @@
+body{
+    background-image: url(shattered.png);
+}
+.header{
+    background: rgba(169, 219, 204, 0.829);
+    text-align: center;
+    margin: 10px 190px;
+    position: absolute;
+    width: 800px;
+    padding: 30px;
+    border-radius: 50px;
+    font-family: 'Poiret One', cursive;
+    box-shadow: gray 10px 10px 10px;
+}
+.form{
+    text-align: center;
+    background: rgba(230, 182, 182, 0.438);
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    margin: 200px 370px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    box-shadow: gray 10px 10px 10px 5px;
+    font-size: 20px;
+}
+#next{
+background-color: black;
+color: white;
+height: 300px;
+position: fixed;
+width: 500px;
+z-index: 50;
+text-align: center;
+visibility: hidden;
+margin: 200px 390px;
+opacity: .8;
+border-radius: 10px;
+
+}
+#numberCorrect{
+font-size: 30px;
+color: red;
+margin: 100px auto;
+}
